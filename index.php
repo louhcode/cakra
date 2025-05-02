@@ -46,7 +46,7 @@
       margin-left: 20px;
       text-decoration: none;
       /* font-weight: bold; */
-      font-size: 20px;
+      font-size: 14px;
     }
 
     .navbar a:hover {
@@ -56,7 +56,7 @@
     .hero {
       position: relative;
       width: 100%;
-      height: 600px;
+      height: 500px;
       overflow: hidden;
     }
 
@@ -89,12 +89,12 @@
     }
 
     .hero-caption h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 0.5rem;
     }
 
     .hero-caption h2 {
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-weight: normal;
     }
 
@@ -153,8 +153,8 @@
     /* Product Grid */
     .product-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
       margin-top: 40px;
     }
 
@@ -169,13 +169,14 @@
 
     .product img {
       max-width: 100%;
+      max-height: 150px;
       border-radius: 6px;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .product:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      transform: scale(1.03);
+      box-shadow: 0 4px 10px #0d47a1;
     }
 
     /* Table Styles */
@@ -225,6 +226,38 @@
     .footer .social-icons a:hover {
       color: #f8b400;
     }
+
+    /* Grid referensi proyek: ikon perusahaan */
+    .ref-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 20px;
+      margin: 100px 0;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .ref-item {
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .ref-item img {
+      width: 64px;
+      /* sesuaikan ukuran ikon */
+      height: 64px;
+      object-fit: contain;
+      margin-bottom: 8px;
+    }
+
+    .ref-item p {
+      font-size: 0.85rem;
+      color: #333;
+    }
+
+    .ref-item:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
 
@@ -240,7 +273,7 @@
     <div class="hero-container">
       <!-- Slide 1 -->
       <div class="hero-slide">
-        <img src="/images/hero1.png" alt="High Quality">
+        <img src="images/hero1.svg" alt="High Quality">
         <div class="hero-caption">
           <h1>HIGH QUALITY</h1>
           <h2>Standar mutu terbaik untuk sistem penyangga kabel</h2>
@@ -248,7 +281,7 @@
       </div>
       <!-- Slide 2 -->
       <div class="hero-slide">
-        <img src="/images/hero1.png" alt="Low Price">
+        <img src="images/hero2.svg" alt="Low Price">
         <div class="hero-caption">
           <h1>LOW PRICE</h1>
           <h2>Harga kompetitif tanpa mengurangi kualitas</h2>
@@ -256,7 +289,7 @@
       </div>
       <!-- Slide 3 -->
       <div class="hero-slide">
-        <img src="/images/hero1.png" alt="Good Service">
+        <img src="images/hero3.svg" alt="Good Service">
         <div class="hero-caption">
           <h1>GOOD SERVICE</h1>
           <h2>Layanan cepat dan andal untuk kepuasan Anda</h2>
@@ -282,22 +315,22 @@
     <h2>Produk Kami</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="/images/p1.png" alt="Produk 1">
+        <img src="images/p1.png" alt="Produk 1">
         <h3>Produk 1</h3>
         <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p>
       </div>
       <div class="product">
-        <img src="/images/p1.png" alt="Produk 2">
+        <img src="images/p1.png" alt="Produk 2">
         <h3>Produk 2</h3>
         <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p>
       </div>
       <div class="product">
-        <img src="/images/p1.png" alt="Produk 3">
+        <img src="images/p1.png" alt="Produk 3">
         <h3>Produk 3</h3>
         <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p>
       </div>
       <div class="product">
-        <img src="/images/p1.png" alt="Produk 4">
+        <img src="images/p1.png" alt="Produk 4">
         <h3>Produk 4</h3>
         <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p>
       </div>
@@ -307,6 +340,33 @@
   <!-- New Referensi Proyek Section -->
   <section class="section" id="referensi-proyek">
     <h2>Referensi Proyek</h2>
+
+    <!-- Grid ikon perusahaan -->
+    <div class="ref-grid">
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+      </div>
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 2">        
+      </div>
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 3">        
+      </div>
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+      </div>
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+      </div>
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+      </div>
+      <div class="ref-item">
+        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+      </div>
+
+      <!-- ...tambahkan sesuai jumlah -->
+    </div>
     <div class="table-container">
       <table id="sheet-table">
         <thead>
@@ -349,7 +409,7 @@
   <script>
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 400) {
+      if (window.scrollY > 250) {
         navbar.classList.add('scrolled');
       } else {
         navbar.classList.remove('scrolled');
