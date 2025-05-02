@@ -240,7 +240,7 @@
     <div class="hero-container">
       <!-- Slide 1 -->
       <div class="hero-slide">
-        <img src="https://imgur.com/nTF9PWx.png" alt="High Quality">
+        <img src="/images/hero1.png" alt="High Quality">
         <div class="hero-caption">
           <h1>HIGH QUALITY</h1>
           <h2>Standar mutu terbaik untuk sistem penyangga kabel</h2>
@@ -248,7 +248,7 @@
       </div>
       <!-- Slide 2 -->
       <div class="hero-slide">
-        <img src="https://imgur.com/MekHeQi.png" alt="Low Price">
+        <img src="/images/hero1.png" alt="Low Price">
         <div class="hero-caption">
           <h1>LOW PRICE</h1>
           <h2>Harga kompetitif tanpa mengurangi kualitas</h2>
@@ -256,7 +256,7 @@
       </div>
       <!-- Slide 3 -->
       <div class="hero-slide">
-        <img src="https://imgur.com/Pl8aHkL.png" alt="Good Service">
+        <img src="/images/hero1.png" alt="Good Service">
         <div class="hero-caption">
           <h1>GOOD SERVICE</h1>
           <h2>Layanan cepat dan andal untuk kepuasan Anda</h2>
@@ -282,22 +282,22 @@
     <h2>Produk Kami</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="https://imgur.com/9vY8UwI.png" alt="Produk 1">
+        <img src="/images/p1.png" alt="Produk 1">
         <h3>Produk 1</h3>
         <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p>
       </div>
       <div class="product">
-        <img src="https://imgur.com/9vY8UwI.png" alt="Produk 2">
+        <img src="/images/p1.png" alt="Produk 2">
         <h3>Produk 2</h3>
         <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p>
       </div>
       <div class="product">
-        <img src="https://imgur.com/9vY8UwI.png" alt="Produk 3">
+        <img src="/images/p1.png" alt="Produk 3">
         <h3>Produk 3</h3>
         <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p>
       </div>
       <div class="product">
-        <img src="https://imgur.com/9vY8UwI.png" alt="Produk 4">
+        <img src="/images/p1.png" alt="Produk 4">
         <h3>Produk 4</h3>
         <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p>
       </div>
