@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primas - Cabling Support System & Accessories</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <style>
     * {
       margin: 0;
@@ -20,7 +21,6 @@
       overflow-y: scroll;
     }
 
-    /* Navbar */
     .navbar {
       position: fixed;
       top: 0;
@@ -41,11 +41,17 @@
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     }
 
+    .navbar-logo img {
+      height: 30px;
+      width: auto;
+      margin: 0 10px;
+    }
+
     .navbar a {
       color: white;
-      margin-left: 20px;
+      margin-left: 0;
+      margin: 0 20px;
       text-decoration: none;
-      /* font-weight: bold; */
       font-size: 14px;
     }
 
@@ -98,7 +104,6 @@
       font-weight: normal;
     }
 
-    /* Prev/Next Buttons */
     .hero .prev,
     .hero .next {
       position: absolute;
@@ -121,8 +126,6 @@
       right: 20px;
     }
 
-
-    /* Section */
     .section {
       padding: 100px 70px;
       max-width: 1200px;
@@ -150,7 +153,6 @@
       line-height: 1.8;
     }
 
-    /* Product Grid */
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -176,10 +178,9 @@
 
     .product:hover {
       transform: scale(1.03);
-      box-shadow: 0 4px 10px #0d47a1;
+      box-shadow: 0 4px 10px rgb(147, 150, 155);
     }
 
-    /* Table Styles */
     .table-container {
       overflow-x: auto;
       margin-top: 40px;
@@ -203,7 +204,6 @@
       color: white;
     }
 
-    /* Footer */
     .footer {
       background: #1a2b56;
       color: white;
@@ -230,7 +230,7 @@
     /* Grid referensi proyek: ikon perusahaan */
     .ref-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      grid-template-columns: repeat(7, minmax(80px, 1fr));
       gap: 20px;
       margin: 100px 0;
       justify-items: center;
@@ -243,9 +243,9 @@
     }
 
     .ref-item img {
-      width: 64px;
+      width: 100%;
       /* sesuaikan ukuran ikon */
-      height: 64px;
+      height: 100%;
       object-fit: contain;
       margin-bottom: 8px;
     }
@@ -255,8 +255,58 @@
       color: #333;
     }
 
-    .ref-item:hover {
-      transform: scale(1.1);
+    /* Grid untuk contact card */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(240px, 1fr));
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    /* Card styling */
+    .contact-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    }
+
+    .contact-card h3 {
+      margin-bottom: 12px;
+      color: #0d47a1;
+    }
+
+    .contact-card p {
+      margin: 8px 0;
+      font-size: 0.95rem;
+    }
+
+    .contact-card a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+
+    /* .contact-card a:hover {
+      text-decoration: underline;
+    } */
+
+    /* Tombol WhatsApp khusus di dalam card */
+    .contact-card .btn-wa {
+      display: inline-block;
+      margin-top: 12px;
+      background-color: #25D366;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-card .btn-wa:hover {
+      background-color: #1ebe5d;
     }
   </style>
 </head>
@@ -265,9 +315,15 @@
   <div class="navbar" id="navbar">
     <a href="#about">Tentang Produk</a>
     <a href="#produk">Produk</a>
+    <div class="navbar-logo">
+      <a href="#">
+        <img src="images/PRIMAS.svg" alt="Primas Logo" />
+      </a>
+    </div>
     <a href="#referensi-proyek">Referensi Proyek</a>
     <a href="#kontak">Kontak</a>
   </div>
+
 
   <section class="hero">
     <div class="hero-container">
@@ -307,7 +363,7 @@
       Sistem pendukung kabel seperti cable tray dan cable ladder dari Primas dirancang untuk memenuhi kebutuhan instalasi kabel listrik dan industri, mengutamakan kekuatan dan efisiensi.
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deleniti, aperiam et laborum, dolorem accusantium reprehenderit fugit dolorum molestias autem voluptates sequi quisquam. Deserunt cum numquam, architecto nulla cumque nam.
       Laudantium labore aut nihil aliquid, delectus ipsam numquam neque accusantium sapiente et totam, est, dolorum velit quis enim minus tenetur repellendus laborum saepe culpa odit autem placeat? Illum, est ipsam?
-      Vitae, illo nostrum obcaecati dolorem, pariatur laboriosam nulla cumque ullam perferendis, architecto corporis doloremque repudiandae? Voluptatum voluptate repellendus magni excepturi mollitia esse officia a sunt, ad ea architecto natus unde!
+      Vitae, illo nostrum obcaecati dolorem, pariatur laboriosam nulla cumque ullam perferendis, architecto corpor.svgis doloremque repudiandae? Voluptatum voluptate repellendus magni excepturi mollitia esse officia a sunt, ad ea architecto natus unde!
     </p>
   </section>
 
@@ -315,24 +371,44 @@
     <h2>Produk Kami</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="images/p1.png" alt="Produk 1">
-        <h3>Produk 1</h3>
-        <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p>
+        <img src="images/pi/1.svg" alt="Produk 1">
+        <h3>Cover Straight Tray & Ladder </h3>
+        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
       </div>
       <div class="product">
-        <img src="images/p1.png" alt="Produk 2">
-        <h3>Produk 2</h3>
-        <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p>
+        <img src="images/pi/2.svg" alt="Produk 2">
+        <h3>Straight Ladder Type - SLW </h3>
+        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
       </div>
       <div class="product">
-        <img src="images/p1.png" alt="Produk 3">
-        <h3>Produk 3</h3>
-        <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p>
+        <img src="images/pi/3.svg" alt="Produk 3">
+        <h3>Straight Tray Type - C </h3>
+        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
       </div>
       <div class="product">
-        <img src="images/p1.png" alt="Produk 4">
+        <img src="images/pi/4.svg" alt="Produk 4">
         <h3>Produk 4</h3>
-        <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="images/pi/1.svg" alt="Produk 1">
+        <h3>Cover Straight Tray & Ladder </h3>
+        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="images/pi/2.svg" alt="Produk 2">
+        <h3>Straight Ladder Type - SLW </h3>
+        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="images/pi/3.svg" alt="Produk 3">
+        <h3>Straight Tray Type - C </h3>
+        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
+      </div>
+      <div class="product">
+        <img src="images/pi/4.svg" alt="Produk 4">
+        <h3>Produk 4</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
     </div>
   </section>
@@ -344,25 +420,46 @@
     <!-- Grid ikon perusahaan -->
     <div class="ref-grid">
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+        <img src="images/rp/1.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 2">        
+        <img src="images/rp/2.svg" alt="Logo Perusahaan 2">
       </div>
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 3">        
+        <img src="images/rp/3.svg" alt="Logo Perusahaan 3">
       </div>
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+        <img src="images/rp/4.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+        <img src="images/rp/5.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+        <img src="images/rp/6.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rf1.svg" alt="Logo Perusahaan 1">        
+        <img src="images/rp/7.svg" alt="Logo Perusahaan 1">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/1.svg" alt="Logo Perusahaan 1">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/2.svg" alt="Logo Perusahaan 2">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/3.svg" alt="Logo Perusahaan 3">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/4.svg" alt="Logo Perusahaan 1">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/5.svg" alt="Logo Perusahaan 1">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/6.svg" alt="Logo Perusahaan 1">
+      </div>
+      <div class="ref-item">
+        <img src="images/rp/7.svg" alt="Logo Perusahaan 1">
       </div>
 
       <!-- ...tambahkan sesuai jumlah -->
@@ -379,109 +476,72 @@
 
   <section class="section" id="kontak">
     <h2>Kontak</h2>
-    <p>Untuk informasi lebih lanjut mengenai produk Primas, silakan hubungi kami melalui email atau WhatsApp.</p>
-    <p><strong>Email:</strong> info@primas.com</p>
-    <p><strong>WhatsApp:</strong> +62 812-3456-7890</p>
+    <p>Untuk detail dan dukungan lebih lanjut, silakan menghubungi kami pada kontak berikut.</p>
+
+    <div class="contact-grid">
+      <!-- Contact Person 1 -->
+      <div class="contact-card">
+        <h3>Henry DS</h3>
+        <p><strong>Email:</strong>
+          <a href="mailto:budi.santoso@primas.com">budi.santoso@primas.com</a>
+        </p>
+        <p><strong>Telp/WA:</strong>
+          <a href="tel:+628111345013">+62 811-1345-013</a>
+        </p>
+        <a
+          class="btn-wa"
+          href="https://wa.me/6281122233344?text=Halo%20Budi,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
+          target="_blank"
+          rel="noopener">
+          Chat via WhatsApp
+        </a>
+      </div>
+
+      <!-- Contact Person 2 -->
+      <div class="contact-card">
+        <h3>Siti Aminah</h3>
+        <p><strong>Email:</strong>
+          <a href="mailto:siti.aminah@primas.com">siti.aminah@primas.com</a>
+        </p>
+        <p><strong>Telp/WA:</strong>
+          <a href="tel:+6281333344455">+62 813-3334-4455</a>
+        </p>
+        <a
+          class="btn-wa"
+          href="https://wa.me/6281333344455?text=Halo%20Siti,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
+          target="_blank"
+          rel="noopener">
+          Chat via WhatsApp
+        </a>
+      </div>
+
+      <!-- Contact Person 3 -->
+      <div class="contact-card">
+        <h3>Andi Wijaya</h3>
+        <p><strong>Email:</strong>
+          <a href="mailto:andi.wijaya@primas.com">andi.wijaya@primas.com</a>
+        </p>
+        <p><strong>Telp/WA:</strong>
+          <a href="tel:+6281444455566">+62 814-4445-5566</a>
+        </p>
+        <a
+          class="btn-wa"
+          href="https://wa.me/6281444455566?text=Halo%20Andi,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
+          target="_blank"
+          rel="noopener">
+          Chat via WhatsApp
+        </a>
+      </div>
+    </div>
   </section>
+
+
 
   <footer class="footer">
     &copy; 2025 Primas. All rights reserved.
   </footer>
 
-  <script>
-    let index = 0;
-    const slides = document.querySelectorAll('.hero-slide');
-    const container = document.querySelector('.hero-container');
-
-    function updateCarousel() {
-      container.style.transform = `translateX(-${index * 100}%)`;
-    }
-
-    function moveSlide(dir) {
-      index = (index + dir + slides.length) % slides.length;
-      updateCarousel();
-    }
-
-    // auto-slide tiap 4 detik
-    setInterval(() => moveSlide(1), 4000);
-  </script>
-
-  <script>
-    const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 250) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-  </script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const sections = document.querySelectorAll('section');
-
-      const observer = new IntersectionObserver((entries, obs) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            obs.unobserve(entry.target);
-          }
-        });
-      }, {
-        threshold: 0.1 // trigger saat 10% elemen terlihat
-      });
-
-      sections.forEach(sec => observer.observe(sec));
-    });
-  </script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // Ganti dengan ID spreadsheet-mu
-      const spreadsheetId = '1sPIs6eN_N1-1rU0kFEN7QKL2U6W53PtkDiNGMh9YTwI';
-      const sheetName = 'Sheet1';
-      const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?sheet=${sheetName}&tq=`;
-
-      fetch(url)
-        .then(res => res.text())
-        .then(txt => {
-          const jsonStr = txt.match(/google\.visualization\.Query\.setResponse\(([\s\S]+)\);/)[1];
-          return JSON.parse(jsonStr);
-        })
-        .then(data => {
-          const table = document.getElementById('sheet-table');
-          const thead = table.querySelector('thead tr');
-          const tbody = table.querySelector('tbody');
-
-          // 1) Render header
-          data.table.cols.forEach(col => {
-            const th = document.createElement('th');
-            th.textContent = col.label || col.id;
-            thead.appendChild(th);
-          });
-
-          // 2) Ambil 20 baris pertama saja
-          const rows20 = data.table.rows.slice(0, 20);
-
-          // 3) Render 20 baris tersebut
-          rows20.forEach(row => {
-            const tr = document.createElement('tr');
-            row.c.forEach(cell => {
-              const td = document.createElement('td');
-              td.textContent = (cell && cell.v != null) ? cell.v : '';
-              tr.appendChild(td);
-            });
-            tbody.appendChild(tr);
-          });
-        })
-        .catch(err => {
-          console.error('Gagal load sheet:', err);
-          document.querySelector('#referensi-proyek .table-container')
-            .innerHTML = '<p>Error loading data.</p>';
-        });
-    });
-  </script>
+  <script src="main.js" defer></script>
 
 </body>
 
