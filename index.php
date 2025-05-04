@@ -128,7 +128,7 @@
     }
 
     .section {
-      padding: 100px 70px;
+      padding: 100px 50px;
       max-width: 1200px;
       margin: auto;
       text-align: center;
@@ -329,7 +329,6 @@
     <a href="#kontak">Kontak</a>
   </div>
 
-
   <section class="hero">
     <div class="hero-container">
       <!-- Slide 1 -->
@@ -365,7 +364,7 @@
   <section class="section" id="about">
     <h2>Tentang Produk</h2>
     <p>
-    Primas adalah merek sistem penyangga kabel (cable management) yang diperkenalkan pada tahun 2020. Dirancang khusus untuk memenuhi kebutuhan instalasi kabel listrik dan data di berbagai sektor—mulai dari gedung komersial, industri berat, hingga proyek infrastruktur—Primas mengutamakan kekuatan, efisiensi, keandalan, dan kemudahan instalasi.
+      Primas adalah merek sistem penyangga kabel (cable management) yang diperkenalkan pada tahun 2020. Dirancang khusus untuk memenuhi kebutuhan instalasi kabel listrik dan data di berbagai sektor—mulai dari gedung komersial, industri berat, hingga proyek infrastruktur—Primas mengutamakan kekuatan, efisiensi, keandalan, dan kemudahan instalasi.
     </p>
   </section>
 
@@ -393,22 +392,32 @@
         <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
       <div class="product">
-        <img src="images/pi/1.svg" alt="Produk 1">
+        <img src="images/pi/5.svg" alt="Produk 5">
         <h3>Cover Straight Tray & Ladder </h3>
         <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
       </div>
       <div class="product">
-        <img src="images/pi/2.svg" alt="Produk 2">
+        <img src="images/pi/6.svg" alt="Produk 6">
         <h3>Straight Ladder Type - SLW </h3>
         <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
       </div>
       <div class="product">
-        <img src="images/pi/3.svg" alt="Produk 3">
+        <img src="images/pi/7.svg" alt="Produk 7">
         <h3>Straight Tray Type - C </h3>
         <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
       </div>
       <div class="product">
-        <img src="images/pi/4.svg" alt="Produk 4">
+        <img src="images/pi/8.svg" alt="Produk 8">
+        <h3>Produk 4</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="images/pi/9.svg" alt="Produk 9">
+        <h3>Produk 4</h3>
+        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+      </div>
+      <div class="product">
+        <img src="images/pi/10.svg" alt="Produk 10">
         <h3>Produk 4</h3>
         <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
@@ -431,31 +440,31 @@
         <img src="images/rp/3.svg" alt="Logo Perusahaan 3">
       </div>
       <div class="ref-item">
-        <img src="images/rp/4.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/4.svg" alt="Logo Perusahaan 4">
       </div>
       <div class="ref-item">
-        <img src="images/rp/5.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/5.svg" alt="Logo Perusahaan 5">
       </div>
       <div class="ref-item">
-        <img src="images/rp/6.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/6.svg" alt="Logo Perusahaan 6">
       </div>
       <div class="ref-item">
-        <img src="images/rp/7.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/7.svg" alt="Logo Perusahaan 7">
       </div>
       <div class="ref-item">
-        <img src="images/rp/8.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/8.svg" alt="Logo Perusahaan 8">
       </div>
       <div class="ref-item">
-        <img src="images/rp/9.svg" alt="Logo Perusahaan 2">
+        <img src="images/rp/9.svg" alt="Logo Perusahaan 9">
       </div>
       <div class="ref-item">
-        <img src="images/rp/10.svg" alt="Logo Perusahaan 3">
+        <img src="images/rp/10.svg" alt="Logo Perusahaan 10">
       </div>
       <div class="ref-item">
-        <img src="images/rp/11.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/13.svg" alt="Logo Perusahaan 11">
       </div>
       <div class="ref-item">
-        <img src="images/rp/12.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/12.svg" alt="Logo Perusahaan 12">
       </div>
       <!-- ...tambahkan sesuai jumlah -->
     </div>
@@ -476,9 +485,9 @@
     <div class="contact-grid">
       <!-- Contact Person 1 -->
       <div class="contact-card">
-        <h3>Henry DS</h3>
+        <h3>Contact 1</h3>
         <p><strong>Email:</strong>
-          <a href="mailto:budi.santoso@primas.com">budi.santoso@primas.com</a>
+          <a href="mailto:contact1@primas.com">contact1@primas.com</a>
         </p>
         <p><strong>Telp/WA:</strong>
           <a href="tel:+628111345013">+62 811-1345-013</a>
@@ -494,16 +503,16 @@
 
       <!-- Contact Person 2 -->
       <div class="contact-card">
-        <h3>Siti Aminah</h3>
+        <h3>Contact 2</h3>
         <p><strong>Email:</strong>
-          <a href="mailto:siti.aminah@primas.com">siti.aminah@primas.com</a>
+          <a href="mailto:contact1@primas.com">contact1@primas.com</a>
         </p>
         <p><strong>Telp/WA:</strong>
-          <a href="tel:+6281333344455">+62 813-3334-4455</a>
+          <a href="tel:+628111345013">+62 811-1345-013</a>
         </p>
         <a
           class="btn-wa"
-          href="https://wa.me/6281333344455?text=Halo%20Siti,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
+          href="https://wa.me/6281122233344?text=Halo%20Budi,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
           target="_blank"
           rel="noopener">
           Chat via WhatsApp
@@ -512,16 +521,16 @@
 
       <!-- Contact Person 3 -->
       <div class="contact-card">
-        <h3>Andi Wijaya</h3>
+        <h3>Contact 3</h3>
         <p><strong>Email:</strong>
-          <a href="mailto:andi.wijaya@primas.com">andi.wijaya@primas.com</a>
+          <a href="mailto:contact1@primas.com">contact1@primas.com</a>
         </p>
         <p><strong>Telp/WA:</strong>
-          <a href="tel:+6281444455566">+62 814-4445-5566</a>
+          <a href="tel:+628111345013">+62 811-1345-013</a>
         </p>
         <a
           class="btn-wa"
-          href="https://wa.me/6281444455566?text=Halo%20Andi,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
+          href="https://wa.me/6281122233344?text=Halo%20Budi,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
           target="_blank"
           rel="noopener">
           Chat via WhatsApp
@@ -536,7 +545,10 @@
     &copy; 2025 Primas. All rights reserved.
   </footer>
 
-  <script src="main.js" defer></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/navbar-scroll.js"></script>
+  <script src="js/section-observer.js"></script>
+  <script src="js/sheet-loader.js"></script>
 
 </body>
 
