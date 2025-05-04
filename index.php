@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primas - Cabling Support System & Accessories</title>
+  <link rel="icon" type="image/png" href="images/icon.svg">
   <!-- <link rel="stylesheet" href="style.css"> -->
   <style>
     * {
@@ -227,28 +228,32 @@
       color: #f8b400;
     }
 
-    /* Grid referensi proyek: ikon perusahaan */
     .ref-grid {
-      display: grid;
-      grid-template-columns: repeat(7, minmax(80px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* center setiap baris */
       gap: 20px;
       margin: 100px 0;
-      justify-items: center;
-      align-items: center;
     }
 
     .ref-item {
+      width: 150px;
+      /* atur lebar box logo */
       text-align: center;
-      transition: transform 0.2s ease;
     }
 
     .ref-item img {
-      width: 100%;
-      /* sesuaikan ukuran ikon */
-      height: 100%;
-      object-fit: contain;
-      margin-bottom: 8px;
+      display: block;
+      margin: 0 auto 8px;
+      max-width: 100%;
+      /* isi penuh lebar .ref-item */
+      height: auto;
+      /* pertahankan rasio */
+      /* opsional: batasi tinggi kalau gambarnya terlalu tinggi */
+      /* max-height: 120px; */
     }
+
 
     .ref-item p {
       font-size: 0.85rem;
@@ -360,10 +365,7 @@
   <section class="section" id="about">
     <h2>Tentang Produk</h2>
     <p>
-      Sistem pendukung kabel seperti cable tray dan cable ladder dari Primas dirancang untuk memenuhi kebutuhan instalasi kabel listrik dan industri, mengutamakan kekuatan dan efisiensi.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deleniti, aperiam et laborum, dolorem accusantium reprehenderit fugit dolorum molestias autem voluptates sequi quisquam. Deserunt cum numquam, architecto nulla cumque nam.
-      Laudantium labore aut nihil aliquid, delectus ipsam numquam neque accusantium sapiente et totam, est, dolorum velit quis enim minus tenetur repellendus laborum saepe culpa odit autem placeat? Illum, est ipsam?
-      Vitae, illo nostrum obcaecati dolorem, pariatur laboriosam nulla cumque ullam perferendis, architecto corpor.svgis doloremque repudiandae? Voluptatum voluptate repellendus magni excepturi mollitia esse officia a sunt, ad ea architecto natus unde!
+    Primas adalah merek sistem penyangga kabel (cable management) yang diperkenalkan pada tahun 2020. Dirancang khusus untuk memenuhi kebutuhan instalasi kabel listrik dan data di berbagai sektor—mulai dari gedung komersial, industri berat, hingga proyek infrastruktur—Primas mengutamakan kekuatan, efisiensi, keandalan, dan kemudahan instalasi.
     </p>
   </section>
 
@@ -441,27 +443,20 @@
         <img src="images/rp/7.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rp/1.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/8.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rp/2.svg" alt="Logo Perusahaan 2">
+        <img src="images/rp/9.svg" alt="Logo Perusahaan 2">
       </div>
       <div class="ref-item">
-        <img src="images/rp/3.svg" alt="Logo Perusahaan 3">
+        <img src="images/rp/10.svg" alt="Logo Perusahaan 3">
       </div>
       <div class="ref-item">
-        <img src="images/rp/4.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/11.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rp/5.svg" alt="Logo Perusahaan 1">
+        <img src="images/rp/12.svg" alt="Logo Perusahaan 1">
       </div>
-      <div class="ref-item">
-        <img src="images/rp/6.svg" alt="Logo Perusahaan 1">
-      </div>
-      <div class="ref-item">
-        <img src="images/rp/7.svg" alt="Logo Perusahaan 1">
-      </div>
-
       <!-- ...tambahkan sesuai jumlah -->
     </div>
     <div class="table-container">
