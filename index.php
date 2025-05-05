@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" href="images/icon.svg">
   <!-- <link rel="stylesheet" href="style.css"> -->
   <style>
+    /* ========== RESET & GLOBAL ========== */
     * {
       margin: 0;
       padding: 0;
@@ -22,6 +23,7 @@
       overflow-y: scroll;
     }
 
+    /* ========== NAVBAR ========== */
     .navbar {
       position: fixed;
       top: 0;
@@ -35,6 +37,7 @@
       z-index: 1000;
       background-color: transparent;
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      flex-wrap: nowrap;
     }
 
     .navbar.scrolled {
@@ -50,7 +53,6 @@
 
     .navbar a {
       color: white;
-      margin-left: 0;
       margin: 0 20px;
       text-decoration: none;
       font-size: 14px;
@@ -60,6 +62,17 @@
       color: #f8b400;
     }
 
+    /* Hamburger toggle button for mobile */
+    .navbar-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* ========== HERO ========== */
     .hero {
       position: relative;
       width: 100%;
@@ -127,6 +140,7 @@
       right: 20px;
     }
 
+    /* ========== SECTION GENERAL ========== */
     .section {
       padding: 100px 50px;
       max-width: 1200px;
@@ -148,12 +162,20 @@
       color: #0d47a1;
     }
 
+    .section h3 {
+      margin-bottom: 16px;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+
     .section p {
       font-size: 1rem;
       color: #333;
       line-height: 1.8;
     }
 
+    /* ========== PRODUCT GRID ========== */
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -162,7 +184,7 @@
     }
 
     .product {
-      background: #f9f9f9;
+      background: #ffffff;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       padding: 20px;
@@ -177,9 +199,35 @@
       margin-bottom: 8px;
     }
 
-    .product:hover {
+    /* .product:hover {
       transform: scale(1.03);
       box-shadow: 0 4px 10px rgb(147, 150, 155);
+    } */
+
+    /* ========== REFERENSI PROYEK ========== */
+    .ref-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 100px 0;
+    }
+
+    .ref-item {
+      width: 135px;
+      text-align: center;
+    }
+
+    .ref-item img {
+      display: block;
+      margin: 0 auto 8px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .ref-item p {
+      font-size: 0.85rem;
+      color: #333;
     }
 
     .table-container {
@@ -205,62 +253,7 @@
       color: white;
     }
 
-    .footer {
-      background: #1a2b56;
-      color: white;
-      text-align: center;
-      padding: 20px 20px;
-      margin-top: 60px;
-    }
-
-    .footer .social-icons {
-      margin-top: 20px;
-    }
-
-    .footer .social-icons a {
-      color: white;
-      margin: 0 10px;
-      font-size: 1.5rem;
-      text-decoration: none;
-    }
-
-    .footer .social-icons a:hover {
-      color: #f8b400;
-    }
-
-    .ref-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      /* center setiap baris */
-      gap: 20px;
-      margin: 100px 0;
-    }
-
-    .ref-item {
-      width: 150px;
-      /* atur lebar box logo */
-      text-align: center;
-    }
-
-    .ref-item img {
-      display: block;
-      margin: 0 auto 8px;
-      max-width: 100%;
-      /* isi penuh lebar .ref-item */
-      height: auto;
-      /* pertahankan rasio */
-      /* opsional: batasi tinggi kalau gambarnya terlalu tinggi */
-      /* max-height: 120px; */
-    }
-
-
-    .ref-item p {
-      font-size: 0.85rem;
-      color: #333;
-    }
-
-    /* Grid untuk contact card */
+    /* ========== CONTACT GRID ========== */
     .contact-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(240px, 1fr));
@@ -268,14 +261,12 @@
       margin-top: 20px;
     }
 
-    /* Card styling */
     .contact-card {
       background: #fff;
       border: 1px solid #ddd;
       border-radius: 8px;
       padding: 20px;
       text-align: center;
-      /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     }
 
     .contact-card h3 {
@@ -293,11 +284,6 @@
       text-decoration: none;
     }
 
-    /* .contact-card a:hover {
-      text-decoration: underline;
-    } */
-
-    /* Tombol WhatsApp khusus di dalam card */
     .contact-card .btn-wa {
       display: inline-block;
       margin-top: 12px;
@@ -313,6 +299,250 @@
     .contact-card .btn-wa:hover {
       background-color: #1ebe5d;
     }
+
+    /* ========== FOOTER ========== */
+    .footer {
+      background: #1a2b56;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    .view-more-btn {
+      background: none;
+      border: none;
+      color: #0d47a1;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    .view-more-btn:hover {
+      color: #08306b;
+    }
+
+    /* ========== RESPONSIVE MEDIA QUERIES ========== */
+    /* Tablet / small desktop */
+    @media (max-width: 992px) {
+      .navbar {
+        padding: 15px 30px;
+      }
+
+      .navbar-logo img {
+        height: 25px;
+      }
+
+      .navbar a {
+        margin: 0 10px;
+        font-size: 13px;
+      }
+    }
+
+    /* Mobile landscape & portrait */
+    @media (max-width: 768px) {
+
+      /* Navbar */
+      .navbar {
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+
+      .navbar-toggle {
+        display: block;
+      }
+
+      .navbar a {
+        display: none;
+        width: 100%;
+        margin: 8px 0;
+        text-align: center;
+        font-size: 10px;
+      }
+
+      .navbar.open a {
+        display: block;
+      }
+
+      /* Hero */
+      .hero {
+        height: 350px;
+      }
+
+      .hero-caption h1 {
+        font-size: 2rem;
+      }
+
+      .hero-caption h2 {
+        font-size: 0.9rem;
+      }
+
+      /* Section */
+      .section {
+        padding: 60px 20px;
+      }
+
+      .section h2 {
+        font-size: 1.75rem;
+      }
+
+      /* Product grid */
+      .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+        margin-top: 30px;
+      }
+
+      .product {
+        padding: 16px;
+      }
+
+      .product img {
+        max-height: 120px;
+        margin-bottom: 6px;
+      }
+
+      /* Referensi grid */
+      .ref-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 16px;
+        margin: 60px 0;
+      }
+
+      .ref-item {
+        width: 120px;
+        /* dari 150px turun ke 120px */
+      }
+
+      .ref-item img {
+        max-width: 100px;
+        /* batasi lebar gambar */
+        margin-bottom: 6px;
+        /* spasi kalau perlu dipangkas */
+      }
+
+      .table-container {
+        margin-top: 20px;
+        /* kurangi jarak atas */
+      }
+
+      table {
+        width: 100%;
+        /* pastikan fill container */
+        font-size: 0.85rem;
+        /* kecilkan font */
+      }
+
+      th,
+      td {
+        padding: 6px 8px;
+        /* lebih tipis */
+      }
+
+      /* Contact cards become single column */
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .hero .prev,
+      .hero .next {
+        padding: 10px;
+        /* sedikit lebih kecil */
+        font-size: 20px;
+        /* huruf/icon lebih kecil */
+      }
+
+      .hero .prev {
+        left: 15px;
+      }
+
+      .hero .next {
+        right: 15px;
+      }
+    }
+
+    /* Small phones */
+    @media (max-width: 480px) {
+      .hero {
+        height: 300px;
+      }
+
+      .hero .prev,
+      .hero .next {
+        padding: 8px;
+        /* minimal padding */
+        font-size: 16px;
+        /* icon lebih tipis */
+      }
+
+      .hero .prev {
+        left: 10px;
+      }
+
+      .hero .next {
+        right: 10px;
+      }
+
+      .hero-caption h1 {
+        font-size: 1rem;
+      }
+
+      .hero-caption h2 {
+        font-size: 0.7rem;
+      }
+
+      .section h2 {
+        font-size: 1.3rem;
+      }
+
+      .section p {
+        font-size: 0.7rem;
+      }
+
+      .table-container {
+        margin-top: 16px;
+      }
+
+      .ref-item {
+        width: 100px;
+        /* box semakin kecil */
+      }
+
+      .ref-item img {
+        max-width: 80px;
+        /* gambar lebih kecil lagi */
+        margin-bottom: 4px;
+      }
+
+      table {
+        font-size: 0.75rem;
+      }
+
+      th,
+      td {
+        padding: 4px 6px;
+      }
+
+      .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .product {
+        padding: 12px;
+      }
+
+      .product img {
+        max-height: 100px;
+        margin-bottom: 4px;
+      }
+
+      .product h3 {
+        font-size: 0.9rem;
+      }
+    }
   </style>
 </head>
 
@@ -327,13 +557,15 @@
     </div>
     <a href="#referensi-proyek">Referensi Proyek</a>
     <a href="#kontak">Kontak</a>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">☰</button>
+
   </div>
 
   <section class="hero">
     <div class="hero-container">
       <!-- Slide 1 -->
       <div class="hero-slide">
-        <img src="images/hero1.svg" alt="High Quality">
+        <img src="images/HR/HR-1.svg" alt="High Quality">
         <div class="hero-caption">
           <h1>HIGH QUALITY</h1>
           <h2>Standar mutu terbaik untuk sistem penyangga kabel</h2>
@@ -341,7 +573,7 @@
       </div>
       <!-- Slide 2 -->
       <div class="hero-slide">
-        <img src="images/hero2.svg" alt="Low Price">
+        <img src="images/HR/HR-2.svg" alt="Low Price">
         <div class="hero-caption">
           <h1>LOW PRICE</h1>
           <h2>Harga kompetitif tanpa mengurangi kualitas</h2>
@@ -349,7 +581,7 @@
       </div>
       <!-- Slide 3 -->
       <div class="hero-slide">
-        <img src="images/hero3.svg" alt="Good Service">
+        <img src="images/HR/HR-3.svg" alt="Good Service">
         <div class="hero-caption">
           <h1>GOOD SERVICE</h1>
           <h2>Layanan cepat dan andal untuk kepuasan Anda</h2>
@@ -431,40 +663,79 @@
     <!-- Grid ikon perusahaan -->
     <div class="ref-grid">
       <div class="ref-item">
-        <img src="images/rp/1.svg" alt="Logo Perusahaan 1">
+        <img src="images/RP/RP-1.svg" alt="Logo Perusahaan 1">
       </div>
       <div class="ref-item">
-        <img src="images/rp/2.svg" alt="Logo Perusahaan 2">
+        <img src="images/RP/RP-2.svg" alt="Logo Perusahaan 2">
       </div>
       <div class="ref-item">
-        <img src="images/rp/3.svg" alt="Logo Perusahaan 3">
+        <img src="images/RP/RP-3.svg" alt="Logo Perusahaan 3">
       </div>
       <div class="ref-item">
-        <img src="images/rp/4.svg" alt="Logo Perusahaan 4">
+        <img src="images/RP/RP-4.svg" alt="Logo Perusahaan 4">
       </div>
       <div class="ref-item">
-        <img src="images/rp/5.svg" alt="Logo Perusahaan 5">
+        <img src="images/RP/RP-5.svg" alt="Logo Perusahaan 5">
       </div>
       <div class="ref-item">
-        <img src="images/rp/6.svg" alt="Logo Perusahaan 6">
+        <img src="images/RP/RP-6.svg" alt="Logo Perusahaan 6">
       </div>
       <div class="ref-item">
-        <img src="images/rp/7.svg" alt="Logo Perusahaan 7">
+        <img src="images/RP/RP-7.svg" alt="Logo Perusahaan 7">
       </div>
       <div class="ref-item">
-        <img src="images/rp/8.svg" alt="Logo Perusahaan 8">
+        <img src="images/RP/RP-8.svg" alt="Logo Perusahaan 8">
       </div>
       <div class="ref-item">
-        <img src="images/rp/9.svg" alt="Logo Perusahaan 9">
+        <img src="images/RP/RP-9.svg" alt="Logo Perusahaan 9">
       </div>
       <div class="ref-item">
-        <img src="images/rp/10.svg" alt="Logo Perusahaan 10">
+        <img src="images/RP/RP-10.svg" alt="Logo Perusahaan 10">
       </div>
       <div class="ref-item">
-        <img src="images/rp/13.svg" alt="Logo Perusahaan 11">
+        <img src="images/RP/RP-11.svg" alt="Logo Perusahaan 11">
       </div>
       <div class="ref-item">
-        <img src="images/rp/12.svg" alt="Logo Perusahaan 12">
+        <img src="images/RP/RP-12.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-13.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-14.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-15.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-16.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-17.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-18.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-19.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-20.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-21.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-22.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-23.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-24.svg" alt="Logo Perusahaan 12">
+      </div>
+      <div class="ref-item">
+        <img src="images/RP/RP-25.svg" alt="Logo Perusahaan 12">
       </div>
       <!-- ...tambahkan sesuai jumlah -->
     </div>
@@ -475,6 +746,10 @@
         </thead>
         <tbody></tbody>
       </table>
+    </div>
+
+    <div class="view-more" style="margin: 50px 0;">
+      <button type="button" class="view-more-btn" id="open-modal">Klik untuk melihat selengkapnya</button>
     </div>
   </section>
 
@@ -549,6 +824,8 @@
   <script src="js/navbar-scroll.js"></script>
   <script src="js/section-observer.js"></script>
   <script src="js/sheet-loader.js"></script>
+  <script src="js/navbar-toggle.js"></script>
+
 
 </body>
 
