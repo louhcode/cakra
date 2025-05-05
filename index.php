@@ -46,7 +46,7 @@
     }
 
     .navbar-logo img {
-      height: 30px;
+      height: 50px;
       width: auto;
       margin: 0 10px;
     }
@@ -199,6 +199,30 @@
       margin-bottom: 8px;
     }
 
+    .download-catalog {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    /* Styling tombol */
+    .btn-download {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      color: #0056b3;
+      background: #fff;
+      border: 2px solid #0056b3;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color .2s, color .2s;
+    }
+
+    .btn-download:hover {
+      background-color: #0056b3;
+      color: #fff;
+    }
+
+
     /* .product:hover {
       transform: scale(1.03);
       box-shadow: 0 4px 10px rgb(147, 150, 155);
@@ -255,9 +279,13 @@
 
     /* ========== CONTACT GRID ========== */
     .contact-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(240px, 1fr));
+      display: flex;
+      justify-content: center;
+      /* ratakan anak‐anak flex di tengah */
+      flex-wrap: wrap;
+      /* pakai wrap kalau layar sempit */
       gap: 30px;
+      /* jarak antar kartu */
       margin-top: 20px;
     }
 
@@ -605,54 +633,59 @@
     <div class="product-grid">
       <div class="product">
         <img src="images/pi/1.svg" alt="Produk 1">
-        <h3>Cover Straight Tray & Ladder </h3>
+        <h3>Cover Tray & Ladder </h3>
         <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/2.svg" alt="Produk 2">
-        <h3>Straight Ladder Type - SLW </h3>
+        <h3>Ladder - SLW </h3>
         <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/3.svg" alt="Produk 3">
-        <h3>Straight Tray Type - C </h3>
+        <h3>Straight Tray </h3>
         <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/4.svg" alt="Produk 4">
-        <h3>Produk 4</h3>
+        <h3>Elbow Radius</h3>
         <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/5.svg" alt="Produk 5">
-        <h3>Cover Straight Tray & Ladder </h3>
+        <h3>Elbow Siku </h3>
         <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/6.svg" alt="Produk 6">
-        <h3>Straight Ladder Type - SLW </h3>
+        <h3>Inside Riser </h3>
         <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/7.svg" alt="Produk 7">
-        <h3>Straight Tray Type - C </h3>
+        <h3>Cable Cage</h3>
         <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/8.svg" alt="Produk 8">
-        <h3>Produk 4</h3>
+        <h3>Reducer</h3>
         <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/9.svg" alt="Produk 9">
-        <h3>Produk 4</h3>
+        <h3>Left Hand Reducer</h3>
         <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
       <div class="product">
         <img src="images/pi/10.svg" alt="Produk 10">
-        <h3>Produk 4</h3>
+        <h3>Cross Tray</h3>
         <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
       </div>
+    </div>
+    <div class="download-catalog">
+      <a href="files/PRODUCT CATALOG PRIMAS.pdf" class="btn-download">
+        Download Product Catalog
+      </a>
     </div>
   </section>
 
@@ -739,7 +772,7 @@
       </div>
       <!-- ...tambahkan sesuai jumlah -->
     </div>
-    <div class="table-container">
+    <div id="referensi-proyek" class="table-container">
       <table id="sheet-table">
         <thead>
           <tr></tr>
@@ -793,24 +826,6 @@
           Chat via WhatsApp
         </a>
       </div>
-
-      <!-- Contact Person 3 -->
-      <div class="contact-card">
-        <h3>Contact 3</h3>
-        <p><strong>Email:</strong>
-          <a href="mailto:contact1@primas.com">contact1@primas.com</a>
-        </p>
-        <p><strong>Telp/WA:</strong>
-          <a href="tel:+628111345013">+62 811-1345-013</a>
-        </p>
-        <a
-          class="btn-wa"
-          href="https://wa.me/6281122233344?text=Halo%20Budi,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas"
-          target="_blank"
-          rel="noopener">
-          Chat via WhatsApp
-        </a>
-      </div>
     </div>
   </section>
 
@@ -823,9 +838,8 @@
   <script src="js/carousel.js"></script>
   <script src="js/navbar-scroll.js"></script>
   <script src="js/section-observer.js"></script>
-  <script src="js/sheet-loader.js"></script>
   <script src="js/navbar-toggle.js"></script>
-
+  <script src="js/sheet-table.js"></script>
 
 </body>
 
