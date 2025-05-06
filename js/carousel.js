@@ -12,4 +12,4 @@ function moveSlide(dir) {
 }
 
 // auto-slide tiap 4 detik
-setInterval(() => moveSlide(1), 4000);
+// setInterval(() => moveSlide(1), 4000);
