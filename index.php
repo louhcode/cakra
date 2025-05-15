@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primas - Cabling Support System & Accessories</title>
   <link rel="icon" type="image/png" href="images/icon.svg">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
     <a href="#produk">Produk</a>
     <div class="navbar-logo">
       <a href="/">
-        <img src="images/PRIMAS.svg" alt="Primas Logo" />
+        <img src="images/CAKRA.svg" alt="Primas Logo" />
       </a>
     </div>
     <a href="#referensi-proyek">Referensi Proyek</a>
@@ -27,206 +27,264 @@
 
   </div>
 
-  <section class="hero">
-    <div class="hero-container">
-      <!-- Slide 1 -->
-      <div class="hero-slide">
-        <img src="images/HR/HR-1.svg" alt="High Quality">
-        <div class="hero-caption">
-          <h2>Primas Cabling Management Solutions</h2>
-          <h1>HIGH QUALITY</h1>
-          <h2>Standar mutu terbaik untuk sistem penyangga kabel</h2>
-        </div>
-      </div>
-      <!-- Slide 2 -->
-      <div class="hero-slide">
-        <img src="images/HR/HR-2.svg" alt="Low Price">
-        <div class="hero-caption">
-          <h2>Primas Cabling Management Solutions</h2>
-          <h1>LOW PRICE</h1>
-          <h2>Harga kompetitif tanpa mengurangi kualitas</h2>
-        </div>
-      </div>
-      <!-- Slide 3 -->
-      <div class="hero-slide">
-        <img src="images/HR/HR-3.svg" alt="Good Service">
-        <div class="hero-caption">
-          <h2>Primas Cabling Management Solutions</h2>
-          <h1>GOOD SERVICE</h1>
-          <h2>Layanan cepat dan andal untuk kepuasan Anda</h2>
-        </div>
-      </div>
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>Cakra Cable Tray & Cakra Cable Ladder</h1>
+      <p>Inovasi Terdepan untuk Manajemen Kabel Berkualitas Tinggi</p>
+      <a href="#produk" class="btn">Selengkapnya</a>
     </div>
-
-    <button class="prev" onclick="moveSlide(-1)">❮</button>
-    <button class="next" onclick="moveSlide(1)">❯</button>
   </section>
 
   <section class="section" id="about">
-    <h2>Primas Tray & Ladder</h2>
+    <h2>Cakra Cable Tray & Ladder</h2>
 
-    <p>
-      Primas Cable Tray & Ladder Solutions, produsen lokal terkemuka sejak 2007, menghadirkan solusi instalasi kabel yang komprehensif—mulai dari Cable Tray & Ladder hingga Terminal Box dan Pintu Darurat—dengan desain dan manufaktur yang sepenuhnya menyesuaikan kebutuhan Anda. Berbekal fasilitas produksi modern, kami mengolah bahan berkualitas tinggi seperti plat besi SPHC, aluminium, dan stainless steel untuk menghasilkan berbagai bentuk serta ukuran sesuai standar industri. Setiap produk dapat difinishing sesuai permintaan, termasuk Hot Dipped Galvanized (HDG), powder coating, maupun electroplating, demi menjamin ketahanan korosi dan umur pakai yang optimal, sekaligus memenuhi persyaratan Standar NEMA untuk keamanan dan performa instalasi kabel.
-    </p>
+    <p>Cakra Cable Tray & Ladder Solutions, produsen lokal terkemuka sejak 2007, menawarkan rangkaian lengkap instalasi kabel—mulai dari Cable Tray & Ladder, Terminal Box, hingga Pintu Darurat—dengan desain dan manufaktur sepenuhnya kustom sesuai kebutuhan; didukung fasilitas pabrik mutakhir, kami memproses plat besi SPHC, aluminium, dan stainless steel menjadi berbagai profil dan ukuran sesuai standar industri, lalu memberikan finishing Hot Dipped Galvanized (HDG), powder coating, atau electroplating demi ketahanan korosi optimal dan kepatuhan pada Standar NEMA; dalam kondisi cuaca ekstrim atau lingkungan korosif tinggi, sistem Ladder Cable baja las Cakra—tersedia dalam varian beban sedang, berat, dan ekstra berat serta material pra-galvanis, hot dipped galvanis, atau stainless steel—telah terbukti andal menahan beban kabel berat pada bentang panjang, dengan performa unggul di sektor minyak & gas, petrokimia, energi, dan manufaktur; percayakan desain presisi dan daya tahan jangka panjang instalasi kabel Anda kepada Cakra sebagai mitra solusi profesional.</p>
 
-    <!-- Di Tengah Sini DIkasih Konten Gambar ini -->
-    <figure class="about-figure">
-      <img src="images/cableSS.svg"
-        alt="Primas Tray & Ladder dalam aplikasi industri" />
-      <!-- <figcaption>Contoh penerapan Primas Tray & Ladder di lapangan</figcaption> -->
-    </figure>
-
-    <p>
-      Dalam kondisi cuaca ekstrem atau lingkungan dengan tingkat korosi tinggi, rangkaian Ladder Cable baja las Primas menjadi pilihan ideal berkat kemampuannya menahan beban kabel berat pada bentang panjang. Sistem ini tersedia dalam varian beban sedang, berat, serta ekstra berat, dan dapat diproduksi menggunakan material pra-galvanis, hot dipped galvanis, atau stainless steel. Keandalan dan daya tahan produk kami telah terbukti dalam berbagai sektor—mulai dari minyak dan gas, petrokimia, energi, hingga fasilitas manufaktur—yang menuntut ketahanan terhadap atmosfer bersalinitas dan paparan bahan korosif ringan. Percayakan desain, presisi, dan daya tahan instalasi kabel Anda kepada Primas Cable Tray & Ladder Solutions sebagai mitra andal untuk solusi jangka panjang.
-    </p>
-  </section>
-
-  <section id="features" class="section">
-    <h2>Keunggulan Primas</h2>
     <div class="feature-grid">
       <div class="feature-card">
-        <div class="feature-icon">
-          <!-- contoh pakai SVG atau font-icon -->
-          🔒
-        </div>
+        <div class="feature-icon">🔒</div>
         <h3>Bahan Berkualitas Tinggi</h3>
-        <p>Kami hanya menggunakan plat SPHC, aluminium & stainless steel terbaik untuk memastikan kekuatan dan ketahanan.</p>
-        <!-- <a href="#" class="feature-link">→</a> -->
+        <p>Kami hanya menggunakan plat SPHC, aluminium &amp; stainless steel terbaik untuk memastikan kekuatan dan ketahanan.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">🛠️</div>
-        <h3>Desain & Kustomisasi</h3>
+        <h3>Desain &amp; Kustomisasi</h3>
         <p>Solusi yang sepenuhnya disesuaikan dengan kebutuhan proyek Anda, mulai dari ukuran hingga finishing.</p>
-        <!-- <a href="#" class="feature-link">→</a> -->
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">🌧️</div>
         <h3>Ketahanan Korosi</h3>
-        <p>Finishing HDG, powder coating atau electroplating menjamin umur pakai yang optimal di segala kondisi.</p>
-        <!-- <a href="#" class="feature-link">→</a> -->
+        <p>Finishing HDG, powder coating, atau electroplating menjamin umur pakai yang optimal di segala kondisi.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">⚙️</div>
         <h3>Standar Industri NEMA</h3>
         <p>Memenuhi persyaratan keamanan dan performa kabel sesuai regulasi NEMA Amerika Serikat.</p>
-        <!-- <a href="#" class="feature-link">→</a> -->
       </div>
 
+      <div class="feature-card">
+        <div class="feature-icon">✅</div>
+        <h3>Kualitas Terjamin</h3>
+        <p>Perusahaan kami mendukung kapasitas produksi skala besar untuk menghasilkan kualitas tinggi yang seragam.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3>Harga Bersaing</h3>
+        <p>Harga produk dan layanan kami disesuaikan dengan kondisi pasar, sehingga Anda selalu mendapatkan nilai terbaik.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="section" id="produk">
-    <h2>Produk Kami</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="images/pi/1.svg" alt="Produk 1">
-        <h3>Cover Tray & Ladder </h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
+  <div class="product-section-bg">
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="section">
+      <!-- Header -->
+      <div class="section-header">
+        <h2>Our Product</h2>
       </div>
-      <div class="product">
-        <img src="images/pi/2.svg" alt="Produk 2">
-        <h3>Straight Ladder </h3>
-        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
+
+
+
+      <!-- Carousel -->
+      <div class="product-carousel">
+        <div class="section-subheader">
+          <h3>Cable Tray</h3>
+        </div>
+        <button class="carousel-arrow prev" aria-label="Previous">&lt;</button>
+        <div class="product-list">
+          <!-- ulangi .product-card sesuai jumlah item -->
+          <div class="product-card">
+            <img src="images/pi/1.svg" alt="Elbow Tray">
+            <h4>Elbow Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/2.svg" alt="IR Tray">
+            <h4>IR Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/3.svg" alt="OR/Outside Riser Tray">
+            <h4>OR/Outside Riser Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/4.svg" alt="Kabel Tray Type C">
+            <h4>Kabel Tray Type C</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/5.svg" alt="Kabel Tray Type U">
+            <h4>Kabel Tray Type U</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/1.svg" alt="Elbow Tray">
+            <h4>Elbow Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/2.svg" alt="IR Tray">
+            <h4>IR Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/3.svg" alt="OR/Outside Riser Tray">
+            <h4>OR/Outside Riser Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/4.svg" alt="Kabel Tray Type C">
+            <h4>Kabel Tray Type C</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/5.svg" alt="Kabel Tray Type U">
+            <h4>Kabel Tray Type U</h4>
+            <small>Kabel Tray</small>
+          </div>
+
+          <!-- Batas -->
+        </div>
+        <button class="carousel-arrow next" aria-label="Next">&gt;</button>
       </div>
-      <div class="product">
-        <img src="images/pi/3.svg" alt="Produk 3">
-        <h3>Straight Tray </h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
+
+      <!-- Carousel -->
+      <div class="product-carousel">
+        <div class="section-subheader">
+          <h3>Cable Ladder</h3>
+        </div>
+        <button class="carousel-arrow prev" aria-label="Previous">&lt;</button>
+        <div class="product-list">
+          <!-- ulangi .product-card sesuai jumlah item -->
+          <div class="product-card">
+            <img src="images/pi/1.svg" alt="Elbow Tray">
+            <h4>Elbow Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/2.svg" alt="IR Tray">
+            <h4>IR Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/3.svg" alt="OR/Outside Riser Tray">
+            <h4>OR/Outside Riser Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/4.svg" alt="Kabel Tray Type C">
+            <h4>Kabel Tray Type C</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/5.svg" alt="Kabel Tray Type U">
+            <h4>Kabel Tray Type U</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/1.svg" alt="Elbow Tray">
+            <h4>Elbow Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/2.svg" alt="IR Tray">
+            <h4>IR Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/3.svg" alt="OR/Outside Riser Tray">
+            <h4>OR/Outside Riser Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/4.svg" alt="Kabel Tray Type C">
+            <h4>Kabel Tray Type C</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/5.svg" alt="Kabel Tray Type U">
+            <h4>Kabel Tray Type U</h4>
+            <small>Kabel Tray</small>
+          </div>
+
+          <!-- Batas -->
+        </div>
+        <button class="carousel-arrow next" aria-label="Next">&gt;</button>
       </div>
-      <div class="product">
-        <img src="images/pi/4.svg" alt="Produk 4">
-        <h3>Elbow Radius</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
+
+      <!-- Carousel -->
+      <div class="product-carousel">
+        <div class="section-subheader">
+          <h3>Accessories
+          </h3>
+        </div>
+        <button class="carousel-arrow prev" aria-label="Previous">&lt;</button>
+        <div class="product-list">
+          <!-- ulangi .product-card sesuai jumlah item -->
+          <div class="product-card">
+            <img src="images/pi/1.svg" alt="Elbow Tray">
+            <h4>Elbow Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/2.svg" alt="IR Tray">
+            <h4>IR Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/3.svg" alt="OR/Outside Riser Tray">
+            <h4>OR/Outside Riser Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/4.svg" alt="Kabel Tray Type C">
+            <h4>Kabel Tray Type C</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/5.svg" alt="Kabel Tray Type U">
+            <h4>Kabel Tray Type U</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/1.svg" alt="Elbow Tray">
+            <h4>Elbow Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/2.svg" alt="IR Tray">
+            <h4>IR Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/3.svg" alt="OR/Outside Riser Tray">
+            <h4>OR/Outside Riser Tray</h4>
+            <small>Aksesoris Kabel Tray, Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/4.svg" alt="Kabel Tray Type C">
+            <h4>Kabel Tray Type C</h4>
+            <small>Kabel Tray</small>
+          </div>
+          <div class="product-card">
+            <img src="images/pi/5.svg" alt="Kabel Tray Type U">
+            <h4>Kabel Tray Type U</h4>
+            <small>Kabel Tray</small>
+          </div>
+
+          <!-- Batas -->
+        </div>
+        <button class="carousel-arrow next" aria-label="Next">&gt;</button>
       </div>
-      <div class="product">
-        <img src="images/pi/5.svg" alt="Produk 5">
-        <h3>Elbow Siku </h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/6.svg" alt="Produk 6">
-        <h3>Inside Riser </h3>
-        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/7.svg" alt="Produk 7">
-        <h3>Cable Cage</h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/8.svg" alt="Produk 8">
-        <h3>Reducer</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/9.svg" alt="Produk 9">
-        <h3>Left Hand Reducer</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/10.svg" alt="Produk 10">
-        <h3>Tee Tray</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/11.svg" alt="Produk 1">
-        <h3>Cross Tray</h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>      
-      <div class="product">
-        <img src="images/pi/13.svg" alt="Produk 3">
-        <h3>Elbow </h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/14.svg" alt="Produk 4">
-        <h3>Inside Ladder</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/15.svg" alt="Produk 5">
-        <h3>Outside Ladder</h3>
-        <!-- <p>Solusi rapi dan aman untuk jalur kabel horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/16.svg" alt="Produk 6">
-        <h3>Tee Ladder </h3>
-        <!-- <p>Kuat dan efisien untuk kabel berat dalam jalur vertikal maupun horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/20.svg" alt="Produk 7">
-        <h3>Cable Cage</h3>
-        <!-- <p>Berbagai aksesoris pendukung untuk koneksi dan penguatan sistem.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/18.svg" alt="Produk 8">
-        <h3>Reducer</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/19.svg" alt="Produk 9">
-        <h3>Cross Ladder</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/17.svg" alt="Produk 10">
-        <h3>Accessories</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-      <div class="product">
-        <img src="images/pi/21.svg" alt="Produk 10">
-        <h3>Accessories</h3>
-        <!-- <p>Solusi tepat untuk pengaturan kabel secara vertikal dan horizontal.</p> -->
-      </div>
-    </div>
-    <div class="download-catalog">
-      <a href="files/product_catalog_primas.pdf" download="product_catalog_primas.pdf" class="btn-download">
-        Unduh Katalog
-      </a>
-    </div>
-  </section>
+    </section>
+  </div>
+
 
   <!-- New Referensi Proyek Section -->
   <section class="section" id="referensi-proyek">
@@ -338,14 +396,6 @@
           Chat via WhatsApp
         </a>
       </li>
-      <li>
-        <h3>Yusuf K.</h3>
-        <p><strong>Email:</strong> <a href="mailto:primastray@yahoo.com">primastray@yahoo.com</a></p>
-        <p><strong>Telp/WA:</strong> <a href="tel:+6287882960991">+62 878-8296-0991</a></p>
-        <a class="btn-wa" href="https://wa.me/6287882960991?text=Halo%20Yusuf,%20saya%20ingin%20tanya%20mengenai%20produk%20Primas" target="_blank" rel="noopener">
-          Chat via WhatsApp
-        </a>
-      </li>
     </ul>
   </section>
 
@@ -353,12 +403,40 @@
     <p>&copy; 2025 Primas. All rights reserved.</p>
   </footer>
 
-
-  <script src="js/carousel.js"></script>
   <script src="js/navbar-scroll.js"></script>
   <script src="js/section-observer.js"></script>
   <script src="js/navbar-toggle.js"></script>
   <script src="js/sheet-table.js"></script>
+  <!-- di akhir body, sebelum </body> -->
+
+
+  <script>
+    // ambil semua carousel
+    document.querySelectorAll('.product-carousel').forEach(carousel => {
+      const list = carousel.querySelector('.product-list');
+      const cards = Array.from(carousel.querySelectorAll('.product-card'));
+      const btnNext = carousel.querySelector('.carousel-arrow.next');
+      const btnPrev = carousel.querySelector('.carousel-arrow.prev');
+      let index = 0;
+
+      // fungsi untuk scroll ke card ke-i
+      function showCard(i) {
+        index = Math.max(0, Math.min(cards.length - 1, i));
+        cards[index].scrollIntoView({
+          behavior: 'smooth',
+          inline: 'start', // horizontal alignment
+          block: 'nearest' // mencegah vertical scrolling
+        });
+      }
+
+      // pasang listener
+      btnNext.addEventListener('click', () => showCard(index + 1));
+      btnPrev.addEventListener('click', () => showCard(index - 1));
+
+      // (opsional) bisa start di index 0
+      showCard(0);
+    });
+  </script>
 
 </body>
 

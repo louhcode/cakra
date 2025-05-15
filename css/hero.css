@@ -1,0 +1,5 @@
+.hero { position: relative; min-height: 100vh; display: flex; justify-content: center; align-items: center; padding-top: 70px; background: url("../images/HR/HR-1.svg") center/cover no-repeat; }
+.hero-overlay { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5); }
+.hero-content { position: relative; max-width: 100%; padding: 0 1rem; text-align: center; color: #fff; }
+.hero-content h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+.hero-content p { font-size: 1.2rem; margin-bottom: 1.5rem; }
