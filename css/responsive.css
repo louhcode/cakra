@@ -127,11 +127,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .section h2::before {
-    transform: translate(-80%, -50%);
-  }
+  .section h2::before,
   .section h2::after {
-    transform: translate(80%, -50%);
+    transform: none;
+    content: none; /* opsional, jika kamu ingin elemen pseudo tidak tampil sama sekali */
   }
 }
 
@@ -162,11 +161,10 @@
   .section h2 {
     font-size: 1.3rem;
   }
-  .section h2::before {
-    transform: translate(-120%, -50%);
-  }
+  .section h2::before,
   .section h2::after {
-    transform: translate(120%, -50%);
+    transform: none;
+    content: none; /* opsional, jika kamu ingin elemen pseudo tidak tampil sama sekali */
   }
   .section p {
     font-size: 0.7rem;

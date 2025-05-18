@@ -226,8 +226,9 @@
   </div>
 
   <div class="download-catalog">
-    <a href="https://drive.google.com/file/d/1yRxC1-Wy41Pt-IP2pH-TWP0gGFg85Tbz/view?usp=sharing" class="btn-download">
+    <a href="https://drive.google.com/file/d/1dlZ_RsyTabnABJLS9oesnPz0MJT3YbHw/view?usp=sharing" class="btn-download" target="_blank">
       Lihat Katalog
     </a>
+
   </div>
 </section>
